@@ -1,4 +1,4 @@
-import 'package:dashboard/screens/dashboard.dart';
+import 'package:dashboard/screens/on_board_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DashBoard(),
+      home: OnBoardingScreen(),
     );
   }
 }
